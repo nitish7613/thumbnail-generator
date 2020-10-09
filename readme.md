@@ -1,4 +1,4 @@
-**************************************************used npm module*******************
+**************************************************used npm module*******************/
  "body-parser": "^1.19.0",
     "chai": "^4.2.0",
     "express": "^4.17.1",
@@ -7,7 +7,7 @@
     "mocha": "^8.1.3",
     "node-image-resizer": "^1.0.0",
     "request": "^2.88.2"
-    ****************End Points*********
+    ***************************************************End Points****************************888**********/
     /api/login   ->   for jwt authentication ,it generates a token by using mock user details
                       as username:nitish , password:nit123 and a default secret key as "secret";
 
@@ -18,7 +18,7 @@
 
    /api/thumbnail   ->  it is also protected , used to pass a local image and convert it to 50*50.
 
-   *******************************mocha test***************************************
+   *******************************mocha test********************************************************/
 
    i set test script as "mocha".so we can run test script as npm test and run the server by typing npm start.
 
