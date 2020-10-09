@@ -81,6 +81,7 @@ app.post('/api/login', (req, res) => {
 });
 
 // FORMAT OF TOKEN
+//Add token in header as
 // Authorization: Bearer <access_token>
 
 // Verify Token
